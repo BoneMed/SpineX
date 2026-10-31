@@ -1,0 +1,230 @@
+===============================================================================
+SpineX - Third-Party Software Licenses
+===============================================================================
+
+SpineX uses the following open-source libraries. We gratefully acknowledge
+their authors and contributors.
+
+===============================================================================
+1. Qt 6  (The Qt Company)
+   License: LGPL v3 / Commercial
+   Website: https://www.qt.io
+   Components: QtBase (Widgets, OpenGL, Network, Concurrent, GUI)
+
+   Qt is used under the LGPL v3 license. SpineX dynamically links to Qt
+   libraries, which are included unmodified in binary form.
+   Users may replace the Qt libraries with their own compatible versions,
+   in accordance with the LGPL v3 license.
+
+   Copyright (C) 2024 The Qt Company Ltd.
+===============================================================================
+2. VTK - Visualization Toolkit  (Kitware, Inc.)
+   License: BSD 3-Clause
+   Website: https://vtk.org
+
+   Copyright (c) 1993-2024 Ken Martin, Will Schroeder, Bill Lorensen
+   All rights reserved.
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+
+   1. Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+   3. Neither the name of the copyright holder nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+   ARE DISCLAIMED.
+===============================================================================
+3. pybind11
+   License: BSD 3-Clause
+   Website: https://github.com/pybind/pybind11
+
+   Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch>
+   All rights reserved.
+===============================================================================
+4. nlohmann/json
+   License: MIT
+   Website: https://github.com/nlohmann/json
+
+   Copyright (c) 2013-2024 Niels Lohmann
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files, to deal in the
+   Software without restriction, including without limitation the rights to
+   use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software.
+===============================================================================
+5. Python 3.10
+   License: PSF License
+   Website: https://www.python.org
+
+   Copyright (c) 2001-2024 Python Software Foundation.
+   All Rights Reserved.
+===============================================================================
+6. nnU-Net
+   License: Apache License 2.0
+   Website: https://github.com/MIC-DKFZ/nnUNet
+
+   Copyright (c) 2019 Division of Medical Image Computing,
+   German Cancer Research Center (DKFZ), Heidelberg, Germany.
+
+   Modifications by 上海柏恩美医疗科技有限公司:
+   - Replaced the default network architecture with a custom backbone
+     for improved vertebra segmentation accuracy.
+   The original nnU-Net training/inference pipeline is otherwise preserved.
+===============================================================================
+7. OpenSSL
+   License: Apache License 2.0
+   Website: https://www.openssl.org
+
+   Copyright (c) 1998-2024 The OpenSSL Project Authors.
+===============================================================================
+8. zlib
+   License: zlib License
+   Website: https://www.zlib.net
+
+   Copyright (C) 1995-2024 Jean-loup Gailly and Mark Adler.
+===============================================================================
+9. libpng
+   License: PNG Reference Library License v2
+   Website: http://www.libpng.org
+
+   Copyright (c) 1995-2024 The PNG Reference Library Authors.
+===============================================================================
+10. libjpeg-turbo
+    License: IJG License / BSD 3-Clause
+    Website: https://libjpeg-turbo.org
+===============================================================================
+11. FreeType
+    License: FreeType License (FTL)
+    Website: https://www.freetype.org
+
+    Copyright (C) 1996-2024 David Turner, Robert Wilhelm, Werner Lemberg.
+===============================================================================
+12. HarfBuzz
+    License: MIT (Old MIT)
+    Website: https://harfbuzz.github.io
+===============================================================================
+13. GLEW (OpenGL Extension Wrangler Library)
+    License: BSD 3-Clause / MIT
+    Website: https://glew.sourceforge.net
+===============================================================================
+14. fmt
+    License: MIT
+    Website: https://github.com/fmtlib/fmt
+
+    Copyright (c) 2012 - present, Victor Zverovich.
+===============================================================================
+15. pugixml
+    License: MIT
+    Website: https://pugixml.org
+
+    Copyright (c) 2006-2024 Arseny Kapoulkine.
+===============================================================================
+16. LZ4
+    License: BSD 2-Clause
+    Website: https://github.com/lz4/lz4
+
+    Copyright (c) 2011-2024, Yann Collet.
+===============================================================================
+17. brotli
+    License: MIT
+    Website: https://github.com/google/brotli
+
+    Copyright (c) 2009, 2010, 2013-2024 by the Brotli Authors.
+===============================================================================
+18. pcre2
+    License: BSD 3-Clause
+    Website: https://www.pcre.org
+
+    Copyright (c) 1997-2024 University of Cambridge.
+===============================================================================
+19. double-conversion
+    License: BSD 3-Clause
+    Website: https://github.com/google/double-conversion
+
+    Copyright 2006-2024 the V8 project authors.
+===============================================================================
+20. md4c
+    License: MIT
+    Website: https://github.com/mity/md4c
+===============================================================================
+21. libtiff
+    License: BSD-like
+    Website: http://www.libtiff.org
+===============================================================================
+22. liblzma (XZ Utils)
+    License: Public Domain
+    Website: https://tukaani.org/xz
+===============================================================================
+23. bzip2
+    License: BSD-like
+    Website: https://sourceware.org/bzip2
+
+    Copyright (C) 1996-2019 Julian R Seward.
+===============================================================================
+
+===============================================================================
+                     PYTHON RUNTIME DEPENDENCIES
+===============================================================================
+24. PyTorch
+    License: BSD 3-Clause
+    Website: https://pytorch.org
+
+    Copyright (c) 2016-2024 Facebook, Inc. and its affiliates.
+===============================================================================
+25. NumPy
+    License: BSD 3-Clause
+    Website: https://numpy.org
+
+    Copyright (c) 2005-2024 NumPy Developers.
+===============================================================================
+26. SciPy
+    License: BSD 3-Clause
+    Website: https://scipy.org
+
+    Copyright (c) 2001-2024 SciPy Developers.
+===============================================================================
+27. nibabel
+    License: MIT
+    Website: https://nipy.org/nibabel
+
+    Copyright (c) 2009-2024 Matthew Brett et al.
+===============================================================================
+28. SimpleITK
+    License: Apache License 2.0
+    Website: https://simpleitk.org
+
+    Copyright (c) NumFOCUS.
+===============================================================================
+29. Open3D
+    License: MIT
+    Website: https://www.open3d.org
+
+    Copyright (c) 2018-2024 Intel Corporation.
+===============================================================================
+30. pandas
+    License: BSD 3-Clause
+    Website: https://pandas.pydata.org
+
+    Copyright (c) 2008-2024 AQR Capital Management, LLC,
+    Lambda Foundry, Inc. and PyData Development Team.
+===============================================================================
+31. matplotlib
+    License: PSF-based (BSD-compatible)
+    Website: https://matplotlib.org
+
+    Copyright (c) 2002-2024 Matplotlib Development Team.
+===============================================================================
+
+Full license texts for each library can be found in their respective
+source repositories listed above.
+
+===============================================================================

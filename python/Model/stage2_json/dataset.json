@@ -1,0 +1,36 @@
+{
+    "channel_names": {
+        "0": "CT"
+    },
+    "labels": {
+        "background": 0,
+        "label_1": 1,
+        "label_2": 2,
+        "label_3": 3,
+        "label_4": 4,
+        "label_5": 5,
+        "label_6": 6,
+        "label_7": 7,
+        "label_8": 8,
+        "label_9": 9,
+        "label_10": 10,
+        "label_11": 11,
+        "label_12": 12,
+        "label_13": 13,
+        "label_14": 14,
+        "label_15": 15,
+        "label_16": 16,
+        "label_17": 17,
+        "label_18": 18,
+        "label_19": 19,
+        "label_20": 20,
+        "label_21": 21,
+        "label_22": 22,
+        "label_23": 23,
+        "label_24": 24,
+        "label_25": 25
+    },
+    "numTraining": 214,
+    "file_ending": ".nii.gz",
+    "overwrite_image_reader_writer": "SimpleITKIO"
+}

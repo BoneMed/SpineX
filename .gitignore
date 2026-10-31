@@ -1,0 +1,15 @@
+build*/
+__pycache__/
+*.py[cod]
+*.pdb
+*.obj
+*.o
+.vscode/
+.idea/
+.claude/
+.env
+.env.*
+!.env.example
+server/alipay_keys.txt
+*.pem
+*.key
